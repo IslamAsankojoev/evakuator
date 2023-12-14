@@ -1,0 +1,91 @@
+.prices_title{
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%;
+    height: initial!important;
+    font-size: 2em;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.prices_subtitle{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section.pricess{
+  font-family: 'TTInterfaces', Arial, sans-serif;
+    width: 1140px;
+    height: initial;
+    max-width: 90%;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #fff;
+}
+.t396__elem.tn-elem div[style="line-height: 21px;"] a{
+  display:none;
+}
+
+.prices_table{
+    width: 100%;
+    margin: 0 auto;
+    border-color: #e4e4e4;
+    font-weight: 500;
+    font-size: 1.3em;
+    border-spacing: 0px 0px; 
+}
+
+/* write mobile styles for table fonts */
+@media screen and (max-width: 768px){
+  .prices_table{
+    font-size: 1em;
+  }
+}
+/* .t396__elem{
+  pointer-events:none;
+} */
+
+.prices_table th{
+    background-color: #EAEAEA;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center!important;
+}
+
+.prices_table td{
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.prices_table td.col_name{
+  text-align: left!important;
+}
+.prices_table th.col_name{
+  text-align: left!important;
+}
+.prices_table tr{
+  background-color: #ffffff;
+}
+.prices_table tr:nth-child(even){
+    background-color: #FAFAFA;
+}
+
+/* write border radius for table */
+.prices_table tr:first-child th:first-child{
+    border-top-left-radius: 20px!important;
+}
+.prices_table tr:first-child th:last-child{
+    border-top-right-radius: 20px!important;
+}
+.prices_table tr:last-child td:first-child{
+    border-bottom-left-radius: 20px!important;
+}
+.prices_table tr:last-child td:last-child{
+    border-bottom-right-radius: 20px!important;
+}
